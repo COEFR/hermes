@@ -13,7 +13,6 @@ publica cómo le fue a cada señal.
 [![Flujos](https://img.shields.io/github/actions/workflow/status/COEFR/Hermes-Signal-bot/bot.yml?style=flat-square&label=flujos)](https://github.com/COEFR/Hermes-Signal-bot/actions/workflows/bot.yml)
 [![Último commit](https://img.shields.io/github/last-commit/COEFR/Hermes-Signal-bot?style=flat-square&label=%C3%BAltimo%20estado)](https://github.com/COEFR/Hermes-Signal-bot/commits/main)
 [![Lenguaje](https://img.shields.io/github/languages/top/COEFR/Hermes-Signal-bot?style=flat-square)](#)
-[![Tamaño](https://img.shields.io/github/repo-size/COEFR/Hermes-Signal-bot?style=flat-square)](#)
 
 ## Qué corre en cada pasada
 
