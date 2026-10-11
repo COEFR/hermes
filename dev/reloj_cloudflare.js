@@ -5,7 +5,7 @@
 //  2. Reemplazá el código de ejemplo por TODO este archivo y dale Deploy
 //  3. Settings → Variables and Secrets → Add → tipo Secret, nombre GITHUB_TOKEN,
 //     valor: tu token de GitHub (el de permiso Actions: Read and write)
-//     Y otra variable normal: REPO = COEFR/hermes
+//     Y otra variable normal: REPO = COEFR/Hermes-Signal-bot
 //  4. Settings → Triggers → Cron Triggers → Add → */5 * * * *
 //
 // Con eso el reloj vive en Cloudflare y no depende de ninguna máquina tuya.

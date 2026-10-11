@@ -30,7 +30,7 @@ import urllib.parse
 import urllib.request
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-REPO = "COEFR/hermes"
+REPO = "COEFR/Hermes-Signal-bot"
 WORKFLOW = "bot.yml"
 TOPE = 45
 AVISO_CADA = 120          # minutos entre avisos mientras el problema siga

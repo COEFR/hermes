@@ -514,8 +514,8 @@ Bugs que encontró esta tanda y quedaron corregidos:
 - `data/trading/` no está en git; sin respaldo externo.
 
 ## Reloj externo — el bot ya no depende de la VPS (2026-10-06)
-El bot corre en **GitHub Actions** (repo público `COEFR/hermes`, workflow `bot.yml`, $0) y el **reloj** es un trabajo de **cron-job.org** (cada 15 min, zona America/La_Paz) que dispara por API:
-`POST /repos/COEFR/hermes/actions/workflows/bot.yml/dispatches` · cuerpo `{"ref":"main"}` · encabezado `Authorization: Bearer <PAT fine-grained>`.
+El bot corre en **GitHub Actions** (repo público `COEFR/Hermes-Signal-bot`, workflow `bot.yml`, $0) y el **reloj** es un trabajo de **cron-job.org** (cada 15 min, zona America/La_Paz) que dispara por API:
+`POST /repos/COEFR/Hermes-Signal-bot/actions/workflows/bot.yml/dispatches` · cuerpo `{"ref":"main"}` · encabezado `Authorization: Bearer <PAT fine-grained>`.
 - Trampas medidas del endpoint: **GET → 404** (parece «URL mal escrita»), **POST sin cuerpo → 422**, sin encabezado o sin la palabra `Bearer` → **401**, token en la URL (`?access_token=`) → **401**. Con POST + cuerpo + Bearer → **204**.
 - En el panel de cron-job.org el token va en **Encabezados** (`Authorization`); el bloque *«Requiere autenticación HTTP»* (usuario/contraseña) es Basic y GitHub lo rechaza. Método y cuerpo, en la sección *Avanzado*.
 - Verificado end-to-end: prueba manual 02:53:30 → corrida **#107 `success`** (6/6 flujos, `data-api.binance.vision`, 49 pendientes revisadas); con el **reloj de la VPS apagado**, la **#108 entró sola a las 03:00:12 y terminó `success`** → el reloj externo manda ✓.

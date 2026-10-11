@@ -10,10 +10,10 @@ estado en un commit: GitHub levanta la máquina, ejecuta el script y la apaga. S
 El bot no opera. No pide claves de exchange, no toca fondos y no manda órdenes. Solo avisa, y después
 publica cómo le fue a cada señal.
 
-[![Flujos](https://img.shields.io/github/actions/workflow/status/COEFR/hermes/bot.yml?style=flat-square&label=flujos)](https://github.com/COEFR/hermes/actions/workflows/bot.yml)
-[![Último commit](https://img.shields.io/github/last-commit/COEFR/hermes?style=flat-square&label=%C3%BAltimo%20estado)](https://github.com/COEFR/hermes/commits/main)
-[![Lenguaje](https://img.shields.io/github/languages/top/COEFR/hermes?style=flat-square)](#)
-[![Tamaño](https://img.shields.io/github/repo-size/COEFR/hermes?style=flat-square)](#)
+[![Flujos](https://img.shields.io/github/actions/workflow/status/COEFR/Hermes-Signal-bot/bot.yml?style=flat-square&label=flujos)](https://github.com/COEFR/Hermes-Signal-bot/actions/workflows/bot.yml)
+[![Último commit](https://img.shields.io/github/last-commit/COEFR/Hermes-Signal-bot?style=flat-square&label=%C3%BAltimo%20estado)](https://github.com/COEFR/Hermes-Signal-bot/commits/main)
+[![Lenguaje](https://img.shields.io/github/languages/top/COEFR/Hermes-Signal-bot?style=flat-square)](#)
+[![Tamaño](https://img.shields.io/github/repo-size/COEFR/Hermes-Signal-bot?style=flat-square)](#)
 
 ## Qué corre en cada pasada
 

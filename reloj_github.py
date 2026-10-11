@@ -21,7 +21,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 TOKEN = os.path.join(HERE, ".token_github")
 LOG = os.path.join(HERE, "logs", "reloj.log")
 ESTADO = os.path.join(HERE, ".reloj_estado.json")
-REPO = "COEFR/hermes"
+REPO = "COEFR/Hermes-Signal-bot"
 WORKFLOW = "bot.yml"
 
 

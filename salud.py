@@ -17,7 +17,7 @@ import urllib.request
 import urllib.error
 import calendar
 
-REPO_GH = "COEFR/hermes"
+REPO_GH = "COEFR/Hermes-Signal-bot"
 TOPE_SILENCIO = 45      # minutos sin corridas = silencio (3 ciclos de 15)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
