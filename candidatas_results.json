@@ -1,0 +1,128 @@
+{
+ "clasica": {
+  "ventana1": {
+   "n": 285,
+   "winrate": 36.1,
+   "mov": -0.14
+  },
+  "ventana2": {
+   "n": 360,
+   "winrate": 37.2,
+   "mov": -0.07
+  },
+  "ventana3": {
+   "n": 251,
+   "winrate": 35.5,
+   "mov": 0.12
+  },
+  "positiva_en_3": false
+ },
+ "oculta": {
+  "ventana1": {
+   "n": 245,
+   "winrate": 35.9,
+   "mov": 0.04
+  },
+  "ventana2": {
+   "n": 312,
+   "winrate": 35.3,
+   "mov": 0.07
+  },
+  "ventana3": {
+   "n": 270,
+   "winrate": 36.3,
+   "mov": -0.09
+  },
+  "positiva_en_3": false
+ },
+ "confluencia": {
+  "ventana1": {
+   "n": 276,
+   "winrate": 36.6,
+   "mov": -0.05
+  },
+  "ventana2": {
+   "n": 353,
+   "winrate": 37.7,
+   "mov": -0.0
+  },
+  "ventana3": {
+   "n": 248,
+   "winrate": 35.5,
+   "mov": 0.14
+  },
+  "positiva_en_3": false
+ },
+ "extremo": {
+  "ventana1": {
+   "n": 100,
+   "winrate": 35.0,
+   "mov": -0.41
+  },
+  "ventana2": {
+   "n": 133,
+   "winrate": 30.1,
+   "mov": -0.7
+  },
+  "ventana3": {
+   "n": 91,
+   "winrate": 27.5,
+   "mov": 0.09
+  },
+  "positiva_en_3": false
+ },
+ "rsi9": {
+  "ventana1": {
+   "n": 409,
+   "winrate": 36.9,
+   "mov": -0.07
+  },
+  "ventana2": {
+   "n": 491,
+   "winrate": 36.0,
+   "mov": -0.04
+  },
+  "ventana3": {
+   "n": 355,
+   "winrate": 36.1,
+   "mov": 0.0
+  },
+  "positiva_en_3": false
+ },
+ "cl_bajista": {
+  "ventana1": {
+   "n": 82,
+   "winrate": 34.1,
+   "mov": -0.09
+  },
+  "ventana2": {
+   "n": 150,
+   "winrate": 39.3,
+   "mov": 0.02
+  },
+  "ventana3": {
+   "n": 185,
+   "winrate": 34.1,
+   "mov": -0.02
+  },
+  "positiva_en_3": false
+ },
+ "cl_btc_bajista": {
+  "ventana1": {
+   "n": 38,
+   "winrate": 28.9,
+   "mov": -0.29
+  },
+  "ventana2": {
+   "n": 41,
+   "winrate": 53.7,
+   "mov": 0.57
+  },
+  "ventana3": {
+   "n": 190,
+   "winrate": 36.3,
+   "mov": -0.09
+  },
+  "positiva_en_3": false
+ }
+}

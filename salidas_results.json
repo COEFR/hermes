@@ -1,0 +1,182 @@
+{
+ "fijo 1.5xATR / 1xATR": {
+  "v1": {
+   "n": 285,
+   "winrate": 43.9,
+   "mov": -0.11
+  },
+  "v2": {
+   "n": 360,
+   "winrate": 43.3,
+   "mov": -0.18
+  },
+  "v3": {
+   "n": 251,
+   "winrate": 42.2,
+   "mov": 0.01
+  },
+  "positiva_en_3": false
+ },
+ "fijo 2xATR / 1xATR (actual)": {
+  "v1": {
+   "n": 285,
+   "winrate": 36.1,
+   "mov": -0.14
+  },
+  "v2": {
+   "n": 360,
+   "winrate": 37.2,
+   "mov": -0.07
+  },
+  "v3": {
+   "n": 251,
+   "winrate": 35.5,
+   "mov": 0.12
+  },
+  "positiva_en_3": false
+ },
+ "fijo 3xATR / 1xATR": {
+  "v1": {
+   "n": 285,
+   "winrate": 27.0,
+   "mov": -0.13
+  },
+  "v2": {
+   "n": 360,
+   "winrate": 27.5,
+   "mov": -0.11
+  },
+  "v3": {
+   "n": 251,
+   "winrate": 25.9,
+   "mov": -0.13
+  },
+  "positiva_en_3": false
+ },
+ "fijo 2xATR / 1.5xATR": {
+  "v1": {
+   "n": 285,
+   "winrate": 43.9,
+   "mov": 0.06
+  },
+  "v2": {
+   "n": 360,
+   "winrate": 45.6,
+   "mov": -0.04
+  },
+  "v3": {
+   "n": 251,
+   "winrate": 44.6,
+   "mov": 0.2
+  },
+  "positiva_en_3": false
+ },
+ "objetivo en el SOPORTE / 1xATR": {
+  "v1": {
+   "n": 285,
+   "winrate": 28.8,
+   "mov": -0.15
+  },
+  "v2": {
+   "n": 360,
+   "winrate": 21.7,
+   "mov": 0.05
+  },
+  "v3": {
+   "n": 251,
+   "winrate": 35.9,
+   "mov": 0.26
+  },
+  "positiva_en_3": false
+ },
+ "objetivo en el SOPORTE / 1.5xATR": {
+  "v1": {
+   "n": 285,
+   "winrate": 35.4,
+   "mov": -0.05
+  },
+  "v2": {
+   "n": 360,
+   "winrate": 29.2,
+   "mov": -0.03
+  },
+  "v3": {
+   "n": 251,
+   "winrate": 45.8,
+   "mov": 0.48
+  },
+  "positiva_en_3": false
+ },
+ "break-even tras +1R, objetivo 3xATR": {
+  "v1": {
+   "n": 285,
+   "winrate": 8.8,
+   "mov": -0.77
+  },
+  "v2": {
+   "n": 360,
+   "winrate": 10.8,
+   "mov": -0.45
+  },
+  "v3": {
+   "n": 251,
+   "winrate": 8.0,
+   "mov": -0.58
+  },
+  "positiva_en_3": false
+ },
+ "parcial 1.5R + resto 3R con BE": {
+  "v1": {
+   "n": 285,
+   "winrate": 0.7,
+   "mov": -0.42
+  },
+  "v2": {
+   "n": 360,
+   "winrate": 0.3,
+   "mov": -0.42
+  },
+  "v3": {
+   "n": 251,
+   "winrate": 1.6,
+   "mov": -0.4
+  },
+  "positiva_en_3": false
+ },
+ "salir cuando el RSI cruza 50": {
+  "v1": {
+   "n": 285,
+   "winrate": 25.3,
+   "mov": -0.33
+  },
+  "v2": {
+   "n": 360,
+   "winrate": 27.8,
+   "mov": -0.42
+  },
+  "v3": {
+   "n": 251,
+   "winrate": 24.7,
+   "mov": -0.32
+  },
+  "positiva_en_3": false
+ },
+ "salir por tiempo (20 velas)": {
+  "v1": {
+   "n": 285,
+   "winrate": 27.4,
+   "mov": -0.42
+  },
+  "v2": {
+   "n": 360,
+   "winrate": 26.9,
+   "mov": -0.32
+  },
+  "v3": {
+   "n": 251,
+   "winrate": 30.3,
+   "mov": 0.03
+  },
+  "positiva_en_3": false
+ }
+}

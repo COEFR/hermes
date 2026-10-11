@@ -1,0 +1,40 @@
+# --- secretos: NUNCA suben ---
+.env
+.env.*
+*.env
+.token*
+token*
+logs/
+*.log
+
+# --- llaves y material privado ---
+migracion/
+*llave*
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+*.crt
+*.ppk
+
+# --- entornos, cachés y basura ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+cache/
+*.tmp
+*.db
+*.sqlite
+.DS_Store
+
+# --- gráficos: se mandan adjuntos al chat, no van al repo ---
+/charts/*
+!/charts/.gitignore
+
+# --- artefactos de estudio que no hacen falta en el repo ---
+# OJO: NO ignorar los state*.json, ultimas_tareas.json ni las calibraciones:
+# el bot los lee en cada corrida (en GitHub Actions no hay estado entre corridas).
+niveles_long_results.json
+*.csv

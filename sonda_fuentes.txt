@@ -1,0 +1,16 @@
+2026-10-05 22:40:39 UTC
+❌ Binance api.binance.com: HTTP 451 (39 ms)
+❌ Binance api1.binance.com: HTTP 451 (451 ms)
+❌ Binance api2.binance.com: HTTP 451 (452 ms)
+❌ Binance api4.binance.com: HTTP 451 (433 ms)
+✅ Binance data-api.binance.vision: HTTP 200 · 534 bytes · 431 ms · datos sí
+❌ Binance data-api (futuros): HTTP 451 (24 ms)
+✅ Binance US (api.binance.us): HTTP 200 · 498 bytes · 369 ms · datos sí
+✅ Coinbase Exchange: HTTP 200 · 21138 bytes · 24 ms · datos sí
+✅ Kraken: HTTP 200 · 59448 bytes · 54 ms · datos sí
+❌ Bybit: HTTP 403 (43 ms)
+✅ OKX: HTTP 200 · 377 bytes · 142 ms · datos sí
+✅ Bitstamp: HTTP 200 · 441 bytes · 243 ms · datos sí
+✅ Gate.io: HTTP 200 · 281 bytes · 615 ms · datos sí
+✅ KuCoin: HTTP 200 · 9002 bytes · 180 ms · datos sí
+✅ MEXC: HTTP 200 · 305 bytes · 475 ms · datos sí

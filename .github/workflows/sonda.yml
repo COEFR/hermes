@@ -1,0 +1,65 @@
+name: sonda
+
+# Workflow SOLO MANUAL: mide desde el runner de GitHub la latencia y los errores al pedir datos a
+# Binance (y al avisar por Discord/Telegram). Sirve para decidir con datos si GitHub puede correr
+# el bot, que hace ~400 pedidos por ciclo. No toca el estado ni envía alertas.
+# Se dispara a mano: pestaña Actions → sonda → Run workflow.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write   # para commitear el resultado de la sonda
+
+jobs:
+  sonda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Traer el repo
+        run: git clone --depth 1 "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" repo
+
+      - name: Credenciales
+        run: |
+          mkdir -p ~/.hermes
+          cat > ~/.hermes/.env <<EOF
+          TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_HOME_CHANNEL=${{ secrets.TELEGRAM_HOME_CHANNEL }}
+          DISCORD_BOT_TOKEN=${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_HOME_CHANNEL=${{ secrets.DISCORD_HOME_CHANNEL }}
+          DISCORD_SIGNALS_CHANNEL=${{ secrets.DISCORD_SIGNALS_CHANNEL }}
+          EOF
+
+      - name: Dependencias (Pillow para el gráfico de la sonda)
+        run: python3 -m pip install --quiet "pillow>=10,<13"
+
+      - name: Medir la red desde el runner
+        working-directory: repo
+        run: python3 dev/sonda_red.py
+
+      - name: Medir la entrega (gráfico + subidas) desde el runner
+        working-directory: repo
+        run: python3 dev/sonda_entrega.py
+
+      - name: Probar fuentes de datos alternativas (Binance da 451 a IPs de EE.UU.)
+        working-directory: repo
+        run: python3 dev/sonda_fuentes.py
+
+      - name: Correr el ciclo del bot EN SECO desde el runner (mide cada flujo)
+        working-directory: repo
+        env:
+          GH_DRY: "1"
+          SCHEDULE: "*/15 * * * *"
+        run: python3 gh_run.py
+
+      - name: Devolver el resultado (commit al repo, así se puede leer desde afuera)
+        working-directory: repo
+        run: |
+          git config user.name "bot-senales"
+          git config user.email "bot-senales@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "sin resultado nuevo"
+          else
+            git commit -m "resultado de la sonda $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

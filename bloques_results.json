@@ -1,0 +1,3332 @@
+[
+ {
+  "sym": "BTCUSDT",
+  "tf": "4h",
+  "t": 1692072000000,
+  "mov": 0.8451164790490575,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "4h",
+  "t": 1707825600000,
+  "mov": -1.7042624027063908,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "4h",
+  "t": 1722297600000,
+  "mov": 3.0817659729467377,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "4h",
+  "t": 1737388800000,
+  "mov": -2.850502899030949,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "4h",
+  "t": 1747065600000,
+  "mov": -1.53103524664413,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "4h",
+  "t": 1747656000000,
+  "mov": -1.545535970977396,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "4h",
+  "t": 1755172800000,
+  "mov": 2.3537108854713162,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "4h",
+  "t": 1787659200000,
+  "mov": -1.8293516408707684,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1702566000000,
+  "mov": -1.1347971089599505,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1709046000000,
+  "mov": -1.1908231962211244,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1710262800000,
+  "mov": -1.4353343300629984,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1711555200000,
+  "mov": -1.2971275187486195,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1717772400000,
+  "mov": 0.9376869982089534,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1723377600000,
+  "mov": 1.0309039899140564,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1742151600000,
+  "mov": -0.9098671063151318,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1749139200000,
+  "mov": 0.9624630411015691,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1757926800000,
+  "mov": -0.614948485228106,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1764349200000,
+  "mov": -0.9707383111126509,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1773165600000,
+  "mov": -1.3416992223881372,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BTCUSDT",
+  "tf": "1h",
+  "t": 1782745200000,
+  "mov": -1.1052786176192098,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "4h",
+  "t": 1721649600000,
+  "mov": -1.6360694975406376,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "4h",
+  "t": 1733140800000,
+  "mov": 3.7346716068481944,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "4h",
+  "t": 1736769600000,
+  "mov": -2.5081161629235567,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "4h",
+  "t": 1737187200000,
+  "mov": 4.874285135685619,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "4h",
+  "t": 1747065600000,
+  "mov": -3.475874206825358,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "4h",
+  "t": 1783944000000,
+  "mov": -1.5943666786567774,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1700488800000,
+  "mov": -0.9871563760181388,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1702119600000,
+  "mov": 1.196964330302186,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1708390800000,
+  "mov": -1.0786292328795242,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1711555200000,
+  "mov": -1.3354064566695962,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1713970800000,
+  "mov": 1.5743718172788634,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1721592000000,
+  "mov": -0.9949089303705191,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1723035600000,
+  "mov": 3.3162145065509527,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1749564000000,
+  "mov": -1.3240293938133305,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1752501600000,
+  "mov": 1.9159256827723903,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1752757200000,
+  "mov": -1.4571214538510289,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1754794800000,
+  "mov": -1.2465569808490446,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1755100800000,
+  "mov": -1.3387086616164054,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1759852800000,
+  "mov": -1.2961545178139298,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1760871600000,
+  "mov": -1.1434036219684196,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1761318000000,
+  "mov": -1.270570811264493,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1764349200000,
+  "mov": 1.8551524190143498,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1765994400000,
+  "mov": -1.7296610080887453,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1768417200000,
+  "mov": 1.8786176373724928,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1777856400000,
+  "mov": -0.8379748657978967,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ETHUSDT",
+  "tf": "1h",
+  "t": 1786323600000,
+  "mov": 0.693871568494431,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "4h",
+  "t": 1706457600000,
+  "mov": -2.1245365338506295,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "4h",
+  "t": 1708430400000,
+  "mov": -4.202592644118807,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "4h",
+  "t": 1723550400000,
+  "mov": -3.878878756428017,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "4h",
+  "t": 1728993600000,
+  "mov": -3.5395454687550565,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "4h",
+  "t": 1748260800000,
+  "mov": -3.8896358363617933,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "4h",
+  "t": 1761105600000,
+  "mov": 16.672333159649288,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "4h",
+  "t": 1762286400000,
+  "mov": -8.244734488502525,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1698159600000,
+  "mov": -1.8413791062720675,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1699354800000,
+  "mov": 2.6101240600870494,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1699552800000,
+  "mov": -2.7241299993807195,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1705078800000,
+  "mov": 5.188143693885604,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1710421200000,
+  "mov": 4.192256752781631,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1713589200000,
+  "mov": -1.8207576892948052,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1716476400000,
+  "mov": 2.814995601880543,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1721318400000,
+  "mov": -2.555818184881131,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1734692400000,
+  "mov": -4.666427876034973,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1745424000000,
+  "mov": 3.115202867259726,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1746338400000,
+  "mov": 2.1911215300608027,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1760133600000,
+  "mov": -9.80637554267788,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1761318000000,
+  "mov": -3.4138896120178055,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1762444800000,
+  "mov": -4.057909269700922,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1762538400000,
+  "mov": 11.786449091567565,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1766991600000,
+  "mov": 3.0827997053840326,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1771992000000,
+  "mov": -1.8834011787024263,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1773838800000,
+  "mov": 5.152022046739457,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1777824000000,
+  "mov": -1.8605393503868584,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1780455600000,
+  "mov": -3.5552497498256397,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ZECUSDT",
+  "tf": "1h",
+  "t": 1784826000000,
+  "mov": -1.4097193043228984,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "4h",
+  "t": 1693972800000,
+  "mov": -1.8525607536745148,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "4h",
+  "t": 1700164800000,
+  "mov": -4.480245917280213,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "4h",
+  "t": 1710504000000,
+  "mov": -7.094086312252712,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "4h",
+  "t": 1743076800000,
+  "mov": 4.56730959294327,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "4h",
+  "t": 1755489600000,
+  "mov": 6.305762291534944,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "4h",
+  "t": 1787068800000,
+  "mov": -1.8834218176731032,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1704790800000,
+  "mov": 5.438518524589697,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1705582800000,
+  "mov": 3.4047919703859453,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1724335200000,
+  "mov": -1.4153735088458406,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1725843600000,
+  "mov": -1.3869955163035907,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1731085200000,
+  "mov": -2.0252427424278907,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1741269600000,
+  "mov": -2.154163553344002,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1742223600000,
+  "mov": -1.680004272106772,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1757926800000,
+  "mov": -1.6461344509676512,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1763575200000,
+  "mov": -2.462366722411058,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1772524800000,
+  "mov": -3.074950313814528,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1778454000000,
+  "mov": 2.888802286005676,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1779804000000,
+  "mov": 6.551108005891448,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1780444800000,
+  "mov": -3.925664810905415,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1781614800000,
+  "mov": 4.418273019132379,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "NEARUSDT",
+  "tf": "1h",
+  "t": 1788526800000,
+  "mov": -2.0528606956284774,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "4h",
+  "t": 1698076800000,
+  "mov": -3.4709483309879663,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "4h",
+  "t": 1703563200000,
+  "mov": 11.627445386975621,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "4h",
+  "t": 1731297600000,
+  "mov": -3.0290583105760827,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "4h",
+  "t": 1744632000000,
+  "mov": -3.4801093070051072,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "4h",
+  "t": 1745236800000,
+  "mov": -2.2863972769745384,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "4h",
+  "t": 1747627200000,
+  "mov": -3.3549929342866047,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "4h",
+  "t": 1764158400000,
+  "mov": -2.6698649564839583,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "4h",
+  "t": 1767614400000,
+  "mov": -1.7210256158008974,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "4h",
+  "t": 1778572800000,
+  "mov": 3.3364823972085844,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "4h",
+  "t": 1788739200000,
+  "mov": 3.434049110138404,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1694829600000,
+  "mov": 1.9983079793539416,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1698112800000,
+  "mov": 5.081734060071353,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1700751600000,
+  "mov": -1.9378596199614684,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1705500000000,
+  "mov": 3.275047842170742,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1714341600000,
+  "mov": 1.9790030874320856,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1715083200000,
+  "mov": 3.156412706043943,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1715860800000,
+  "mov": 2.48032191812928,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1722078000000,
+  "mov": -1.1272700167182623,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1723377600000,
+  "mov": 2.0226834978672947,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1728824400000,
+  "mov": 1.0679831207864423,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1731074400000,
+  "mov": -1.604127574421954,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1731412800000,
+  "mov": -2.4805056237766188,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1732892400000,
+  "mov": 1.9784178466514923,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1736737200000,
+  "mov": 1.998876770554392,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1748001600000,
+  "mov": -1.8952283242523622,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1750111200000,
+  "mov": 2.2643140756281044,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1755457200000,
+  "mov": -1.2038256397035372,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1761318000000,
+  "mov": -1.349560990833898,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1762840800000,
+  "mov": 2.80401696819057,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1763964000000,
+  "mov": -1.6544334703978203,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1764352800000,
+  "mov": -1.3537237262827957,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1765818000000,
+  "mov": -1.5025686088956043,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1765994400000,
+  "mov": -1.9777263409529677,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1773147600000,
+  "mov": -1.3172660644831469,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1776790800000,
+  "mov": -1.0067777745227933,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SOLUSDT",
+  "tf": "1h",
+  "t": 1782046800000,
+  "mov": -1.0482080612990827,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "4h",
+  "t": 1701043200000,
+  "mov": -1.6949084913596475,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "4h",
+  "t": 1715054400000,
+  "mov": 3.9626438726065194,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "4h",
+  "t": 1731499200000,
+  "mov": -4.780111888027383,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "1h",
+  "t": 1701939600000,
+  "mov": -1.5740185101036475,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "1h",
+  "t": 1704196800000,
+  "mov": 1.1300242922366315,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "1h",
+  "t": 1709614800000,
+  "mov": 3.893405587055754,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "1h",
+  "t": 1719590400000,
+  "mov": -0.8461313316206807,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "1h",
+  "t": 1721232000000,
+  "mov": -2.189766025320094,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "1h",
+  "t": 1733238000000,
+  "mov": -6.2845716931395845,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "1h",
+  "t": 1751554800000,
+  "mov": -1.2666968190929049,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "1h",
+  "t": 1757768400000,
+  "mov": 1.4948285613075376,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "1h",
+  "t": 1765994400000,
+  "mov": -1.562061167608275,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "1h",
+  "t": 1767358800000,
+  "mov": -0.7354699429621191,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "XRPUSDT",
+  "tf": "1h",
+  "t": 1773165600000,
+  "mov": -1.467837669103,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "4h",
+  "t": 1699675200000,
+  "mov": -3.8835189805598738,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "4h",
+  "t": 1702281600000,
+  "mov": -5.381594226056496,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "4h",
+  "t": 1707825600000,
+  "mov": -2.7920605471062223,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "4h",
+  "t": 1747065600000,
+  "mov": -3.7917309209106853,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "4h",
+  "t": 1749456000000,
+  "mov": -2.5366115413769204,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "4h",
+  "t": 1753747200000,
+  "mov": 6.000180961780811,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "4h",
+  "t": 1756756800000,
+  "mov": -2.4795098147340267,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1701694800000,
+  "mov": -2.191348255661318,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1709128800000,
+  "mov": -1.5966219403761084,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1711447200000,
+  "mov": 2.529921916155021,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1719590400000,
+  "mov": 2.5962132588705837,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1724025600000,
+  "mov": -1.1792978261932483,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1725638400000,
+  "mov": -1.7051640484155417,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1731085200000,
+  "mov": -1.6960214674938023,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1731272400000,
+  "mov": -2.5065733052454964,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1735830000000,
+  "mov": -1.5792933543798622,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1739156400000,
+  "mov": -2.3076639338929783,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1739376000000,
+  "mov": -2.0929676513738444,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1741870800000,
+  "mov": -2.2652882920818125,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1744131600000,
+  "mov": 4.69130826481059,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1748001600000,
+  "mov": -2.210118793437721,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1751616000000,
+  "mov": 2.1099766159228044,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1764352800000,
+  "mov": 1.3052265370359977,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1768417200000,
+  "mov": 1.9826826352641547,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1769612400000,
+  "mov": -1.17552181760312,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1778677200000,
+  "mov": -1.2014629819499854,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1782745200000,
+  "mov": -1.7297399464928915,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1784131200000,
+  "mov": 1.6636838654488617,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "AVAXUSDT",
+  "tf": "1h",
+  "t": 1789664400000,
+  "mov": -1.1118804909637565,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "4h",
+  "t": 1701720000000,
+  "mov": -2.9078691690899046,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "4h",
+  "t": 1707825600000,
+  "mov": -2.502950611396648,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "4h",
+  "t": 1747065600000,
+  "mov": -4.177006778521775,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "4h",
+  "t": 1773201600000,
+  "mov": -3.454181504702413,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "4h",
+  "t": 1781755200000,
+  "mov": 5.871730623887329,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1701003600000,
+  "mov": 1.7212515969516007,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1704988800000,
+  "mov": -2.8475949821009983,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1708419600000,
+  "mov": -2.1372693994937793,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1726736400000,
+  "mov": -1.6828630306201293,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1730232000000,
+  "mov": -1.554758846376214,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1731085200000,
+  "mov": -1.67733893674693,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1737532800000,
+  "mov": 4.297508892696733,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1738335600000,
+  "mov": 3.473889946495623,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1746799200000,
+  "mov": -2.1672644152228804,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1752271200000,
+  "mov": -2.2585703322512414,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1752714000000,
+  "mov": -2.265704961725612,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1754809200000,
+  "mov": -1.6725347069864394,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1755457200000,
+  "mov": 2.4963244452656856,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1759518000000,
+  "mov": -1.5471689240248552,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1765994400000,
+  "mov": -2.3410490482042356,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1767517200000,
+  "mov": -1.5497567010022915,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1780833600000,
+  "mov": -2.0072441906763046,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1787385600000,
+  "mov": 8.085128704004685,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ONEUSDT",
+  "tf": "1h",
+  "t": 1787832000000,
+  "mov": -1.584966500072626,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "4h",
+  "t": 1732536000000,
+  "mov": 13.121952628158118,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "4h",
+  "t": 1733832000000,
+  "mov": -7.488930896361544,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "4h",
+  "t": 1743134400000,
+  "mov": 8.998818687198094,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "4h",
+  "t": 1743667200000,
+  "mov": -5.612011765372315,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "4h",
+  "t": 1776499200000,
+  "mov": 9.60241635229735,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "4h",
+  "t": 1784246400000,
+  "mov": -2.983173393535421,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "4h",
+  "t": 1787918400000,
+  "mov": 15.063693739189432,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "1h",
+  "t": 1720357200000,
+  "mov": 5.204405730051766,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "1h",
+  "t": 1724335200000,
+  "mov": -1.8673751346076513,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "1h",
+  "t": 1725991200000,
+  "mov": 4.015767623377321,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "1h",
+  "t": 1731956400000,
+  "mov": -3.784383354671105,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "1h",
+  "t": 1745424000000,
+  "mov": 4.483700003867973,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "1h",
+  "t": 1752757200000,
+  "mov": 4.914205022147588,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "1h",
+  "t": 1762783200000,
+  "mov": -2.5962377123114995,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "1h",
+  "t": 1763654400000,
+  "mov": -2.291247714911804,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "1h",
+  "t": 1766973600000,
+  "mov": -1.3909133404876202,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "1h",
+  "t": 1767718800000,
+  "mov": -2.2183496534289415,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "ENAUSDT",
+  "tf": "1h",
+  "t": 1789801200000,
+  "mov": -2.91999547187195,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "4h",
+  "t": 1710619200000,
+  "mov": 12.680369923794263,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "4h",
+  "t": 1719187200000,
+  "mov": -3.113413093015005,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "4h",
+  "t": 1727092800000,
+  "mov": -4.356831188526278,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "4h",
+  "t": 1727798400000,
+  "mov": -5.020949689447495,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "4h",
+  "t": 1734350400000,
+  "mov": 7.831696404753143,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "4h",
+  "t": 1752537600000,
+  "mov": -3.0145314076742586,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "4h",
+  "t": 1753142400000,
+  "mov": 5.80401990772066,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "4h",
+  "t": 1753704000000,
+  "mov": 6.750375150899712,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1704988800000,
+  "mov": -3.5760668152112873,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1707757200000,
+  "mov": -2.014772145355981,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1711990800000,
+  "mov": -2.554068939777676,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1731240000000,
+  "mov": -3.203605589790659,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1741878000000,
+  "mov": 4.374564054116914,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1744383600000,
+  "mov": -1.949041715566135,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1745593200000,
+  "mov": 5.947510413147916,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1749567600000,
+  "mov": -1.5795979316766902,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1750698000000,
+  "mov": -2.399899262296023,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1763654400000,
+  "mov": -2.1096517101441887,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1765731600000,
+  "mov": -1.5469972832958698,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1765994400000,
+  "mov": -2.258423531618425,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1776333600000,
+  "mov": -1.338663282045771,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "SUIUSDT",
+  "tf": "1h",
+  "t": 1787940000000,
+  "mov": -1.942066152501309,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "4h",
+  "t": 1702296000000,
+  "mov": 9.046047020157877,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "4h",
+  "t": 1719216000000,
+  "mov": -2.585472819151424,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "4h",
+  "t": 1788667200000,
+  "mov": 4.543908724053836,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1698159600000,
+  "mov": -2.2131305254651013,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1711051200000,
+  "mov": -2.983525789573538,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1732032000000,
+  "mov": -2.3541803615899526,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1732291200000,
+  "mov": -2.538678387396009,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1737172800000,
+  "mov": 4.852171792284388,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1755151200000,
+  "mov": 3.201874556882589,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1756072800000,
+  "mov": 3.413922646030132,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1759410000000,
+  "mov": -1.3077363256375094,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1761318000000,
+  "mov": -1.2015697858873238,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1768417200000,
+  "mov": 2.442536366905035,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1769605200000,
+  "mov": 1.5946317221224864,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1778774400000,
+  "mov": -1.568083587277025,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "DOGEUSDT",
+  "tf": "1h",
+  "t": 1786467600000,
+  "mov": -0.8238253716351118,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "4h",
+  "t": 1701604800000,
+  "mov": -1.191222959450544,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "4h",
+  "t": 1712937600000,
+  "mov": 4.856164456711465,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "4h",
+  "t": 1731268800000,
+  "mov": -2.1925412028236497,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "4h",
+  "t": 1731412800000,
+  "mov": -3.117199420853933,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "4h",
+  "t": 1756756800000,
+  "mov": -1.335317766004085,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "4h",
+  "t": 1786536000000,
+  "mov": -1.088642713365817,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1698426000000,
+  "mov": -1.2737666753742103,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1700132400000,
+  "mov": 1.5466111265059592,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1700488800000,
+  "mov": -0.7825787316917185,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1703235600000,
+  "mov": -1.436696446315011,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1707454800000,
+  "mov": -0.8124238786340718,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1708930800000,
+  "mov": -1.023680945308236,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1710262800000,
+  "mov": -1.9413544412254513,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1721592000000,
+  "mov": -0.9772882667468894,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1723561200000,
+  "mov": -1.2777486195761356,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1732446000000,
+  "mov": -1.7542347373783902,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1739098800000,
+  "mov": 2.5639545758590065,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1739462400000,
+  "mov": -0.08042747178833559,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1742094000000,
+  "mov": 1.3033530709663401,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1742302800000,
+  "mov": -1.316100900067396,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1755176400000,
+  "mov": -1.4849873978064254,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "BNBUSDT",
+  "tf": "1h",
+  "t": 1773644400000,
+  "mov": -0.9784294161718219,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "4h",
+  "t": 1726056000000,
+  "mov": -2.5576697834612134,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "4h",
+  "t": 1729512000000,
+  "mov": 3.3469254900366128,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "4h",
+  "t": 1737201600000,
+  "mov": 5.314505184698116,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "4h",
+  "t": 1737720000000,
+  "mov": -4.04716020466015,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "4h",
+  "t": 1751284800000,
+  "mov": 3.5032266349375405,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "4h",
+  "t": 1757851200000,
+  "mov": -2.0284749169336753,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "4h",
+  "t": 1767830400000,
+  "mov": -4.725328117097616,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "4h",
+  "t": 1786982400000,
+  "mov": -2.532379227613257,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "4h",
+  "t": 1787414400000,
+  "mov": 7.262590729480367,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1726628400000,
+  "mov": 2.521054242959142,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1731160800000,
+  "mov": -2.199488342479483,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1732446000000,
+  "mov": -2.267140622775199,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1732546800000,
+  "mov": -2.6437077475793602,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1733353200000,
+  "mov": 5.041728057676021,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1740153600000,
+  "mov": 2.1567801574392536,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1743537600000,
+  "mov": 2.3533633458378005,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1749009600000,
+  "mov": -1.111857463224164,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1751641200000,
+  "mov": -2.0720100154108074,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1756436400000,
+  "mov": 1.6966339322561423,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1767718800000,
+  "mov": -1.2465812306657218,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1769137200000,
+  "mov": -1.0497060994302028,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "GUSDT",
+  "tf": "1h",
+  "t": 1783911600000,
+  "mov": -1.6597353585882102,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "4h",
+  "t": 1695859200000,
+  "mov": -1.6462453321364867,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "4h",
+  "t": 1697500800000,
+  "mov": 2.7894608412714517,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "4h",
+  "t": 1701734400000,
+  "mov": -2.6390646352460685,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "4h",
+  "t": 1707825600000,
+  "mov": -2.13278102572173,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "4h",
+  "t": 1726272000000,
+  "mov": 4.836126950417086,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "4h",
+  "t": 1736179200000,
+  "mov": 5.125739293800491,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "4h",
+  "t": 1748390400000,
+  "mov": -3.4926175799779857,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "4h",
+  "t": 1770192000000,
+  "mov": 6.980835826287635,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1694322000000,
+  "mov": 1.6947140911050877,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1700514000000,
+  "mov": -1.62257063073028,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1713859200000,
+  "mov": -1.5982474058247593,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1718380800000,
+  "mov": -2.2836718812901835,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1722268800000,
+  "mov": -1.16592805100717,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1745416800000,
+  "mov": -1.6090644727353554,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1757768400000,
+  "mov": 1.7778193747900017,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": true,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1758254400000,
+  "mov": 2.11704181148491,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1759165200000,
+  "mov": -1.2567308173791922,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1761318000000,
+  "mov": -1.2997874180986413,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1763654400000,
+  "mov": 4.162823202919674,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1781582400000,
+  "mov": -2.3479338632817144,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "UNIUSDT",
+  "tf": "1h",
+  "t": 1789480800000,
+  "mov": -2.646240325799842,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "4h",
+  "t": 1721865600000,
+  "mov": -4.486745380219692,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1696244400000,
+  "mov": 4.80210270050967,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1708952400000,
+  "mov": -3.23049712793706,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1709614800000,
+  "mov": -8.22010294231087,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1711468800000,
+  "mov": -3.071298178335324,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1719374400000,
+  "mov": -2.7935659692650328,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1724432400000,
+  "mov": -1.8401564274278193,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1730232000000,
+  "mov": -2.0348592361297047,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1741867200000,
+  "mov": 6.046435230838832,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1755068400000,
+  "mov": -1.9168421096590338,
+  "en_oferta": false,
+  "oferta_fresca_3": true,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1770829200000,
+  "mov": -2.1541782359383976,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1781722800000,
+  "mov": -1.9418250812544997,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1784642400000,
+  "mov": 2.5567312617428066,
+  "en_oferta": false,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": true
+ },
+ {
+  "sym": "PEPEUSDT",
+  "tf": "1h",
+  "t": 1788843600000,
+  "mov": -1.695837470095496,
+  "en_oferta": true,
+  "oferta_fresca_3": false,
+  "oferta_fresca_1": false,
+  "demanda_cerca": false
+ }
+]

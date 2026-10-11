@@ -1,0 +1,111 @@
+name: bot-senales
+
+# Un solo workflow para todo. **No usa ninguna acción de terceros** (ni `checkout` ni `setup-python`):
+# clona el repo con `git`, usa el Python que ya trae el runner de Ubuntu y publica con el token
+# interno. Así funciona incluso con la política de "solo acciones propias" de esta cuenta.
+on:
+  schedule:
+    # SOLO el ciclo de 15 min, como respaldo lento (GitHub atrasa sus horarios 1-9 h; el reloj real es
+    # cron-job.org). El reporte diario y el marcador NO van como horario acá: los decide la lógica por
+    # hora de gh_run.py (16:00 UTC = 12:00 Bolivia; lunes 17:00 UTC = 13:00 Bolivia), así no salen a
+    # otra hora ni se pueden duplicar con el horario disparado.
+    - cron: "*/15 * * * *"      # ciclo normal (respaldo)
+  workflow_dispatch:            # botón para probar a mano (y lo usa el reloj externo)
+    inputs:
+      probar_entrega:
+        description: "Mandar un mensaje de prueba a Discord y Telegram"
+        type: boolean
+        default: false
+      tarea:
+        description: "Horario a ejecutar (vacío = ciclo normal). El reloj externo lo usa para el reporte diario y el marcador semanal."
+        type: string
+        default: ""
+
+permissions:
+  contents: write               # necesario para commitear el estado
+
+concurrency:
+  group: bot-senales
+  cancel-in-progress: false     # si una corrida se atrasa, la siguiente espera (no se pisa el estado)
+
+jobs:
+  ciclo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Traer el repo (git clone, sin acciones de terceros)
+        run: |
+          git clone --depth 1 \
+            "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" repo
+          cd repo
+          git config user.name "bot-senales"
+          git config user.email "bot-senales@users.noreply.github.com"
+
+      - name: Dependencias (Pillow para los gráficos)
+        run: python3 -m pip install --quiet "pillow>=10,<13"
+
+      - name: Credenciales
+        # desde los Secrets del repo (nunca en el código): los scripts leen ~/.hermes/.env
+        run: |
+          mkdir -p ~/.hermes
+          cat > ~/.hermes/.env <<EOF
+          TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_HOME_CHANNEL=${{ secrets.TELEGRAM_HOME_CHANNEL }}
+          DISCORD_BOT_TOKEN=${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_HOME_CHANNEL=${{ secrets.DISCORD_HOME_CHANNEL }}
+          DISCORD_SIGNALS_CHANNEL=${{ secrets.DISCORD_SIGNALS_CHANNEL }}
+          EOF
+          chmod 600 ~/.hermes/.env
+          echo "claves cargadas: $(wc -l < ~/.hermes/.env)"
+
+      - name: Comprobar que las credenciales llegaron
+        # si falta un secreto, la línea queda como "CLAVE=" y la corrida se pone en ROJO
+        # (así no pasa el peor caso: corrida verde que no envía nada)
+        run: |
+          vacias=$(grep -c '=$' ~/.hermes/.env || true)
+          echo "claves con valor: $(grep -c '=.\+' ~/.hermes/.env || true) de 5"
+          if [ "$vacias" != "0" ]; then
+            echo "::error::Faltan secretos del repositorio (Settings → Secrets and variables → Actions)"
+            exit 1
+          fi
+
+      - name: Prueba de entrega (solo si la pedís al disparar)
+        # ojo: NO puede dispararse en cada llamada del reloj (mandaría un mensaje de prueba cada 15 min)
+        if: github.event_name == 'workflow_dispatch' && inputs.probar_entrega
+        working-directory: repo
+        run: python3 dev/prueba_entrega.py
+
+      - name: Correr los flujos del ciclo
+        working-directory: repo
+        env:
+          SCHEDULE: ${{ inputs.tarea || github.event.schedule }}
+        run: python3 gh_run.py
+
+      - name: Guardar el estado (para no repetir alertas ni perder el marcador)
+        working-directory: repo
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "sin cambios de estado"
+          else
+            git commit -m "estado $(date -u '+%Y-%m-%d %H:%M UTC')"
+            # REBASE + REINTENTO: si alguien (o yo, desde la máquina) empujó cambios mientras el ciclo
+            # corría, el push directo se rechaza y la corrida entera quedaba en rojo (pasó en #501 y
+            # #502). Con pull --rebase --autostash y 3 intentos, el bot se reajusta solo.
+            for i in 1 2 3; do
+              if git pull --rebase --autostash origin main && git push; then
+                echo "estado guardado"; break
+              fi
+              echo "push rechazado, reintento $i…"
+              sleep 5
+            done
+          fi
+
+      - name: Avisar por Telegram si algo falló
+        if: failure()
+        run: |
+          curl -s -o /dev/null -X POST \
+            "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_HOME_CHANNEL }}" \
+            --data-urlencode "text=⚠️ El bot de señales falló en GitHub Actions:
+          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

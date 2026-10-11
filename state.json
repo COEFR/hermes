@@ -1,0 +1,59 @@
+{
+ "watchlist": {
+  "ts": 1791600252315,
+  "syms": [
+   "BTCUSDT",
+   "ETHUSDT",
+   "SOLUSDT",
+   "ZECUSDT",
+   "NEARUSDT",
+   "XRPUSDT",
+   "STRKUSDT",
+   "BNBUSDT",
+   "RLCUSDT",
+   "SUIUSDT",
+   "UNIUSDT",
+   "MAGICUSDT",
+   "XAUTUSDT",
+   "DOGEUSDT",
+   "ADAUSDT",
+   "RLUSDUSDT",
+   "KAIAUSDT",
+   "ENAUSDT",
+   "AVAXUSDT",
+   "QNTUSDT",
+   "SPCXBUSDT",
+   "TRXUSDT",
+   "ATOMUSDT",
+   "ONDOUSDT",
+   "PUMPUSDT",
+   "WLDUSDT",
+   "UUSDT",
+   "OGNUSDT",
+   "CRCLBUSDT",
+   "HYPEUSDT",
+   "AAVEUSDT",
+   "PAXGUSDT",
+   "DOTUSDT",
+   "PEPEUSDT",
+   "GRAMUSDT",
+   "APTUSDT",
+   "TAOUSDT",
+   "POLUSDT",
+   "ZROUSDT",
+   "LTCUSDT",
+   "LINKUSDT",
+   "BCHUSDT",
+   "FETUSDT",
+   "ASTERUSDT",
+   "ZKUSDT"
+  ],
+  "top": 45
+ },
+ "seen": {
+  "FETUSDT|1d|1791158400000": 1791600295334
+ },
+ "cooldown": {
+  "FETUSDT": 1791417600000
+ }
+}

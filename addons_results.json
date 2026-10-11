@@ -1,0 +1,428 @@
+{
+ "15m|referencia (se\u00f1al + volumen + salida TP2)": {
+  "n": 353,
+  "sigs_mes": 29.4,
+  "winrate": 37.1,
+  "exp_R": -0.168,
+  "acierto_mueve_pct": 1.71,
+  "fallo_mueve_pct": -1.08,
+  "mov_por_se\u00f1al_pct": -0.05
+ },
+ "15m|+ volatilidad ATR \u2265 1%": {
+  "n": 95,
+  "sigs_mes": 7.9,
+  "winrate": 37.9,
+  "exp_R": 0.007,
+  "acierto_mueve_pct": 3.39,
+  "fallo_mueve_pct": -1.72,
+  "mov_por_se\u00f1al_pct": 0.22
+ },
+ "15m|+ volatilidad ATR \u2265 1.5%": {
+  "n": 27,
+  "sigs_mes": 2.2,
+  "winrate": 40.7,
+  "exp_R": 0.174,
+  "acierto_mueve_pct": 6.35,
+  "fallo_mueve_pct": -2.52,
+  "mov_por_se\u00f1al_pct": 1.09
+ },
+ "15m|+ volatilidad ATR \u2265 2%": {
+  "n": 16,
+  "sigs_mes": 1.3,
+  "winrate": 50.0,
+  "exp_R": 0.484,
+  "acierto_mueve_pct": 7.39,
+  "fallo_mueve_pct": -3.16,
+  "mov_por_se\u00f1al_pct": 2.11
+ },
+ "15m|+ RSI en extremo (<35 / >65)": {
+  "n": 101,
+  "sigs_mes": 8.4,
+  "winrate": 29.7,
+  "exp_R": -0.405,
+  "acierto_mueve_pct": 2.2,
+  "fallo_mueve_pct": -0.99,
+  "mov_por_se\u00f1al_pct": -0.04
+ },
+ "15m|+ divergencia ancha (\u226520 velas)": {
+  "n": 17,
+  "sigs_mes": 1.4,
+  "winrate": 29.4,
+  "exp_R": -0.432,
+  "acierto_mueve_pct": 1.38,
+  "fallo_mueve_pct": -0.87,
+  "mov_por_se\u00f1al_pct": -0.21
+ },
+ "15m|+ BTC a favor (EMA200 4h)": {
+  "n": 128,
+  "sigs_mes": 10.7,
+  "winrate": 46.9,
+  "exp_R": 0.138,
+  "acierto_mueve_pct": 1.58,
+  "fallo_mueve_pct": -1.2,
+  "mov_por_se\u00f1al_pct": 0.1
+ },
+ "15m|+ vela de confirmaci\u00f3n": {
+  "n": 200,
+  "sigs_mes": 16.7,
+  "winrate": 37.0,
+  "exp_R": -0.154,
+  "acierto_mueve_pct": 2.0,
+  "fallo_mueve_pct": -1.14,
+  "mov_por_se\u00f1al_pct": 0.02
+ },
+ "15m|salida: trailing 2\u00d7ATR (sin objetivo)": {
+  "n": 353,
+  "sigs_mes": 29.4,
+  "winrate": 32.3,
+  "exp_R": -0.368,
+  "acierto_mueve_pct": 1.61,
+  "fallo_mueve_pct": -1.06,
+  "mov_por_se\u00f1al_pct": -0.2
+ },
+ "15m|salida: break-even tras +1R, TP 2\u00d7ATR": {
+  "n": 353,
+  "sigs_mes": 29.4,
+  "winrate": 13.0,
+  "exp_R": -0.485,
+  "acierto_mueve_pct": 1.53,
+  "fallo_mueve_pct": -0.68,
+  "mov_por_se\u00f1al_pct": -0.39
+ },
+ "15m|vol + ATR\u22651.5% + RSI extremo": {
+  "n": 9,
+  "sigs_mes": 0.7,
+  "winrate": 66.7,
+  "exp_R": 0.984,
+  "acierto_mueve_pct": 6.02,
+  "fallo_mueve_pct": -2.3,
+  "mov_por_se\u00f1al_pct": 3.24
+ },
+ "15m|vol + ATR\u22651.5% + BTC a favor": {
+  "n": 10,
+  "sigs_mes": 0.8,
+  "winrate": 50.0,
+  "exp_R": 0.464,
+  "acierto_mueve_pct": 5.46,
+  "fallo_mueve_pct": -3.46,
+  "mov_por_se\u00f1al_pct": 1.0
+ },
+ "15m|vol + ATR\u22651.5% + RSI extremo + BTC": {
+  "n": 4
+ },
+ "1h|referencia (se\u00f1al + volumen + salida TP2)": {
+  "n": 171,
+  "sigs_mes": 14.2,
+  "winrate": 23.4,
+  "exp_R": -0.443,
+  "acierto_mueve_pct": 2.9,
+  "fallo_mueve_pct": -1.78,
+  "mov_por_se\u00f1al_pct": -0.68
+ },
+ "1h|+ volatilidad ATR \u2265 1%": {
+  "n": 131,
+  "sigs_mes": 10.9,
+  "winrate": 20.6,
+  "exp_R": -0.491,
+  "acierto_mueve_pct": 3.63,
+  "fallo_mueve_pct": -1.98,
+  "mov_por_se\u00f1al_pct": -0.82
+ },
+ "1h|+ volatilidad ATR \u2265 1.5%": {
+  "n": 76,
+  "sigs_mes": 6.3,
+  "winrate": 18.4,
+  "exp_R": -0.527,
+  "acierto_mueve_pct": 4.9,
+  "fallo_mueve_pct": -2.34,
+  "mov_por_se\u00f1al_pct": -1.01
+ },
+ "1h|+ volatilidad ATR \u2265 2%": {
+  "n": 35,
+  "sigs_mes": 2.9,
+  "winrate": 25.7,
+  "exp_R": -0.27,
+  "acierto_mueve_pct": 5.85,
+  "fallo_mueve_pct": -2.97,
+  "mov_por_se\u00f1al_pct": -0.7
+ },
+ "1h|+ RSI en extremo (<35 / >65)": {
+  "n": 40,
+  "sigs_mes": 3.3,
+  "winrate": 27.5,
+  "exp_R": -0.329,
+  "acierto_mueve_pct": 3.25,
+  "fallo_mueve_pct": -1.75,
+  "mov_por_se\u00f1al_pct": -0.37
+ },
+ "1h|+ divergencia ancha (\u226520 velas)": {
+  "n": 6
+ },
+ "1h|+ BTC a favor (EMA200 4h)": {
+  "n": 73,
+  "sigs_mes": 6.1,
+  "winrate": 13.7,
+  "exp_R": -0.724,
+  "acierto_mueve_pct": 3.81,
+  "fallo_mueve_pct": -1.9,
+  "mov_por_se\u00f1al_pct": -1.12
+ },
+ "1h|+ vela de confirmaci\u00f3n": {
+  "n": 96,
+  "sigs_mes": 8.0,
+  "winrate": 19.8,
+  "exp_R": -0.547,
+  "acierto_mueve_pct": 3.31,
+  "fallo_mueve_pct": -1.68,
+  "mov_por_se\u00f1al_pct": -0.7
+ },
+ "1h|salida: trailing 2\u00d7ATR (sin objetivo)": {
+  "n": 171,
+  "sigs_mes": 14.2,
+  "winrate": 21.1,
+  "exp_R": -0.714,
+  "acierto_mueve_pct": 2.83,
+  "fallo_mueve_pct": -2.05,
+  "mov_por_se\u00f1al_pct": -1.02
+ },
+ "1h|salida: break-even tras +1R, TP 2\u00d7ATR": {
+  "n": 171,
+  "sigs_mes": 14.2,
+  "winrate": 7.6,
+  "exp_R": -0.579,
+  "acierto_mueve_pct": 2.17,
+  "fallo_mueve_pct": -1.23,
+  "mov_por_se\u00f1al_pct": -0.97
+ },
+ "1h|vol + ATR\u22651.5% + RSI extremo": {
+  "n": 17,
+  "sigs_mes": 1.4,
+  "winrate": 17.6,
+  "exp_R": -0.532,
+  "acierto_mueve_pct": 7.22,
+  "fallo_mueve_pct": -2.44,
+  "mov_por_se\u00f1al_pct": -0.73
+ },
+ "1h|vol + ATR\u22651.5% + BTC a favor": {
+  "n": 34,
+  "sigs_mes": 2.8,
+  "winrate": 11.8,
+  "exp_R": -0.707,
+  "acierto_mueve_pct": 6.73,
+  "fallo_mueve_pct": -2.62,
+  "mov_por_se\u00f1al_pct": -1.52
+ },
+ "1h|vol + ATR\u22651.5% + RSI extremo + BTC": {
+  "n": 7
+ },
+ "4h|referencia (se\u00f1al + volumen + salida TP2)": {
+  "n": 60,
+  "sigs_mes": 5.0,
+  "winrate": 48.3,
+  "exp_R": 0.394,
+  "acierto_mueve_pct": 5.71,
+  "fallo_mueve_pct": -2.88,
+  "mov_por_se\u00f1al_pct": 1.27
+ },
+ "4h|+ volatilidad ATR \u2265 1%": {
+  "n": 59,
+  "sigs_mes": 4.9,
+  "winrate": 49.2,
+  "exp_R": 0.421,
+  "acierto_mueve_pct": 5.71,
+  "fallo_mueve_pct": -2.94,
+  "mov_por_se\u00f1al_pct": 1.31
+ },
+ "4h|+ volatilidad ATR \u2265 1.5%": {
+  "n": 55,
+  "sigs_mes": 4.6,
+  "winrate": 50.9,
+  "exp_R": 0.481,
+  "acierto_mueve_pct": 5.83,
+  "fallo_mueve_pct": -3.1,
+  "mov_por_se\u00f1al_pct": 1.45
+ },
+ "4h|+ volatilidad ATR \u2265 2%": {
+  "n": 42,
+  "sigs_mes": 3.5,
+  "winrate": 50.0,
+  "exp_R": 0.47,
+  "acierto_mueve_pct": 6.65,
+  "fallo_mueve_pct": -3.43,
+  "mov_por_se\u00f1al_pct": 1.61
+ },
+ "4h|+ RSI en extremo (<35 / >65)": {
+  "n": 17,
+  "sigs_mes": 1.4,
+  "winrate": 52.9,
+  "exp_R": 0.516,
+  "acierto_mueve_pct": 4.85,
+  "fallo_mueve_pct": -2.38,
+  "mov_por_se\u00f1al_pct": 1.45
+ },
+ "4h|+ divergencia ancha (\u226520 velas)": {
+  "n": 2
+ },
+ "4h|+ BTC a favor (EMA200 4h)": {
+  "n": 14,
+  "sigs_mes": 1.2,
+  "winrate": 35.7,
+  "exp_R": 0.04,
+  "acierto_mueve_pct": 7.24,
+  "fallo_mueve_pct": -3.17,
+  "mov_por_se\u00f1al_pct": 0.55
+ },
+ "4h|+ vela de confirmaci\u00f3n": {
+  "n": 39,
+  "sigs_mes": 3.2,
+  "winrate": 51.3,
+  "exp_R": 0.476,
+  "acierto_mueve_pct": 4.91,
+  "fallo_mueve_pct": -2.89,
+  "mov_por_se\u00f1al_pct": 1.11
+ },
+ "4h|salida: trailing 2\u00d7ATR (sin objetivo)": {
+  "n": 60,
+  "sigs_mes": 5.0,
+  "winrate": 36.7,
+  "exp_R": -0.235,
+  "acierto_mueve_pct": 3.82,
+  "fallo_mueve_pct": -3.41,
+  "mov_por_se\u00f1al_pct": -0.75
+ },
+ "4h|salida: break-even tras +1R, TP 2\u00d7ATR": {
+  "n": 60,
+  "sigs_mes": 5.0,
+  "winrate": 20.0,
+  "exp_R": -0.045,
+  "acierto_mueve_pct": 4.77,
+  "fallo_mueve_pct": -1.5,
+  "mov_por_se\u00f1al_pct": -0.25
+ },
+ "4h|vol + ATR\u22651.5% + RSI extremo": {
+  "n": 16,
+  "sigs_mes": 1.3,
+  "winrate": 56.2,
+  "exp_R": 0.622,
+  "acierto_mueve_pct": 4.85,
+  "fallo_mueve_pct": -2.53,
+  "mov_por_se\u00f1al_pct": 1.62
+ },
+ "4h|vol + ATR\u22651.5% + BTC a favor": {
+  "n": 11,
+  "sigs_mes": 0.9,
+  "winrate": 36.4,
+  "exp_R": 0.096,
+  "acierto_mueve_pct": 8.44,
+  "fallo_mueve_pct": -3.69,
+  "mov_por_se\u00f1al_pct": 0.72
+ },
+ "4h|vol + ATR\u22651.5% + RSI extremo + BTC": {
+  "n": 0
+ },
+ "1d|referencia (se\u00f1al + volumen + salida TP2)": {
+  "n": 3
+ },
+ "1d|+ volatilidad ATR \u2265 1%": {
+  "n": 3
+ },
+ "1d|+ volatilidad ATR \u2265 1.5%": {
+  "n": 3
+ },
+ "1d|+ volatilidad ATR \u2265 2%": {
+  "n": 3
+ },
+ "1d|+ RSI en extremo (<35 / >65)": {
+  "n": 2
+ },
+ "1d|+ divergencia ancha (\u226520 velas)": {
+  "n": 1
+ },
+ "1d|+ BTC a favor (EMA200 4h)": {
+  "n": 2
+ },
+ "1d|+ vela de confirmaci\u00f3n": {
+  "n": 2
+ },
+ "1d|salida: trailing 2\u00d7ATR (sin objetivo)": {
+  "n": 3
+ },
+ "1d|salida: break-even tras +1R, TP 2\u00d7ATR": {
+  "n": 3
+ },
+ "1d|vol + ATR\u22651.5% + RSI extremo": {
+  "n": 2
+ },
+ "1d|vol + ATR\u22651.5% + BTC a favor": {
+  "n": 2
+ },
+ "1d|vol + ATR\u22651.5% + RSI extremo + BTC": {
+  "n": 1
+ },
+ "RECETA|4h + vol + ATR\u22651.5%": {
+  "n": 55,
+  "sigs_mes": 4.6,
+  "winrate": 50.9,
+  "exp_R": 0.481,
+  "acierto_mueve_pct": 5.83,
+  "fallo_mueve_pct": -3.1,
+  "mov_por_se\u00f1al_pct": 1.45,
+  "mitad_1_mueve": 1.13,
+  "mitad_2_mueve": 1.75
+ },
+ "RECETA|15m + vol + ATR\u22651.5%": {
+  "n": 27,
+  "sigs_mes": 2.2,
+  "winrate": 40.7,
+  "exp_R": 0.174,
+  "acierto_mueve_pct": 6.35,
+  "fallo_mueve_pct": -2.52,
+  "mov_por_se\u00f1al_pct": 1.09,
+  "mitad_1_mueve": 2.57,
+  "mitad_2_mueve": 0.22
+ },
+ "RECETA|1h + vol + ATR\u22651.5%": {
+  "n": 76,
+  "sigs_mes": 6.3,
+  "winrate": 18.4,
+  "exp_R": -0.527,
+  "acierto_mueve_pct": 4.9,
+  "fallo_mueve_pct": -2.34,
+  "mov_por_se\u00f1al_pct": -1.01,
+  "mitad_1_mueve": -1.13,
+  "mitad_2_mueve": -0.88
+ },
+ "RECETA|15m+4h + vol + ATR\u22651.5%": {
+  "n": 82,
+  "sigs_mes": 6.8,
+  "winrate": 47.6,
+  "exp_R": 0.38,
+  "acierto_mueve_pct": 5.98,
+  "fallo_mueve_pct": -2.89,
+  "mov_por_se\u00f1al_pct": 1.33,
+  "mitad_1_mueve": 1.23,
+  "mitad_2_mueve": 1.43
+ },
+ "RECETA|15m+4h + vol + ATR\u22651.5% + RSI extremo": {
+  "n": 25,
+  "sigs_mes": 2.1,
+  "winrate": 60.0,
+  "exp_R": 0.752,
+  "acierto_mueve_pct": 5.32,
+  "fallo_mueve_pct": -2.46,
+  "mov_por_se\u00f1al_pct": 2.21,
+  "mitad_1_mueve": 0.24,
+  "mitad_2_mueve": 3.52
+ },
+ "RECETA|solo 4h + vol + ATR\u22652%": {
+  "n": 42,
+  "sigs_mes": 3.5,
+  "winrate": 50.0,
+  "exp_R": 0.47,
+  "acierto_mueve_pct": 6.65,
+  "fallo_mueve_pct": -3.43,
+  "mov_por_se\u00f1al_pct": 1.61,
+  "mitad_1_mueve": 1.06,
+  "mitad_2_mueve": 2.16
+ }
+}
