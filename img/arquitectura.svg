@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="560" viewBox="0 0 1240 560" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="f" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d9a520"/>
+    </marker>
+    <linearGradient id="c" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16171a"/><stop offset="100%" stop-color="#0e0f11"/>
+    </linearGradient>
+  </defs>
+  <rect width="1240" height="560" fill="#0b0c0e"/>
+
+  <g font-size="13" font-family="ui-monospace,Menlo,monospace" fill="#8b8f98" letter-spacing="1.5">
+    <text x="30" y="104">ENTRADA</text>
+    <text x="30" y="248">SEÑAL</text>
+    <text x="30" y="392">ENTREGA</text>
+    <text x="30" y="536">CONTROL</text>
+  </g>
+  <g stroke="#23262b" stroke-width="1">
+    <line x1="20" y1="132" x2="1220" y2="132"/><line x1="20" y1="276" x2="1220" y2="276"/>
+    <line x1="20" y1="420" x2="1220" y2="420"/>
+  </g>
+
+  <!-- fila 1 -->
+  <rect x="130" y="48" width="250" height="68" rx="10" fill="url(#c)" stroke="#2c2f35"/>
+  <text x="255" y="76" text-anchor="middle" font-size="15" font-weight="700" fill="#e8e8ea">Binance · klines</text>
+  <text x="255" y="97" text-anchor="middle" font-size="12.5" fill="#d9a520" font-family="ui-monospace,monospace">20 pares · velas 15m/1h/1d</text>
+
+  <rect x="440" y="48" width="270" height="68" rx="10" fill="url(#c)" stroke="#2c2f35"/>
+  <text x="575" y="76" text-anchor="middle" font-size="15" font-weight="700" fill="#e8e8ea">Indicadores propios</text>
+  <text x="575" y="97" text-anchor="middle" font-size="12.5" fill="#d9a520" font-family="ui-monospace,monospace">RSI · ATR · ADX (Wilder)</text>
+
+  <rect x="770" y="48" width="300" height="68" rx="10" fill="url(#c)" stroke="#2c2f35"/>
+  <text x="920" y="76" text-anchor="middle" font-size="15" font-weight="700" fill="#e8e8ea">Estado del sistema</text>
+  <text x="920" y="97" text-anchor="middle" font-size="12.5" fill="#8b8f98" font-family="ui-monospace,monospace">commit en el repositorio</text>
+  <g stroke="#d9a520" stroke-width="2" marker-end="url(#f)" fill="none">
+    <path d="M380 82 L435 82"/><path d="M710 82 L765 82"/>
+  </g>
+
+  <!-- fila 2 -->
+  <rect x="130" y="192" width="250" height="68" rx="10" fill="url(#c)" stroke="#2c2f35"/>
+  <text x="255" y="220" text-anchor="middle" font-size="15" font-weight="700" fill="#e8e8ea">Detección</text>
+  <text x="255" y="241" text-anchor="middle" font-size="12.5" fill="#d9a520" font-family="ui-monospace,monospace">divergencia + volumen ≥1,2×</text>
+
+  <rect x="440" y="192" width="270" height="68" rx="10" fill="url(#c)" stroke="#d9a520" stroke-opacity="0.5"/>
+  <text x="575" y="220" text-anchor="middle" font-size="15" font-weight="700" fill="#f3d27a">Puntuación 1-10</text>
+  <text x="575" y="241" text-anchor="middle" font-size="12.5" fill="#8b8f98" font-family="ui-monospace,monospace">calibrada con datos reales</text>
+
+  <rect x="770" y="192" width="300" height="68" rx="10" fill="url(#c)" stroke="#2c2f35"/>
+  <text x="920" y="220" text-anchor="middle" font-size="15" font-weight="700" fill="#e8e8ea">Gráfico</text>
+  <text x="920" y="241" text-anchor="middle" font-size="12.5" fill="#8b8f98" font-family="ui-monospace,monospace">velas · RSI · niveles</text>
+  <g stroke="#d9a520" stroke-width="2" marker-end="url(#f)" fill="none">
+    <path d="M380 226 L435 226"/><path d="M710 226 L765 226"/>
+  </g>
+
+  <!-- fila 3 -->
+  <rect x="130" y="336" width="250" height="68" rx="10" fill="url(#c)" stroke="#2c2f35"/>
+  <text x="255" y="364" text-anchor="middle" font-size="15" font-weight="700" fill="#e8e8ea">Telegram · Discord</text>
+  <text x="255" y="385" text-anchor="middle" font-size="12.5" fill="#d9a520" font-family="ui-monospace,monospace">Bot API · entrega verificada</text>
+
+  <rect x="440" y="336" width="270" height="68" rx="10" fill="url(#c)" stroke="#2c2f35"/>
+  <text x="575" y="364" text-anchor="middle" font-size="15" font-weight="700" fill="#e8e8ea">Seguimiento</text>
+  <text x="575" y="385" text-anchor="middle" font-size="12.5" fill="#8b8f98" font-family="ui-monospace,monospace">objetivo / stop en velas posteriores</text>
+
+  <rect x="770" y="336" width="300" height="68" rx="10" fill="url(#c)" stroke="#2c2f35"/>
+  <text x="920" y="364" text-anchor="middle" font-size="15" font-weight="700" fill="#e8e8ea">Avisos de proximidad</text>
+  <text x="920" y="385" text-anchor="middle" font-size="12.5" fill="#8b8f98" font-family="ui-monospace,monospace">objetivo o stop cercanos</text>
+  <g stroke="#d9a520" stroke-width="2" marker-end="url(#f)" fill="none">
+    <path d="M380 370 L435 370"/><path d="M710 370 L765 370"/>
+  </g>
+
+  <!-- fila 4 -->
+  <rect x="130" y="480" width="250" height="60" rx="10" fill="url(#c)" stroke="#2c2f35"/>
+  <text x="255" y="508" text-anchor="middle" font-size="15" font-weight="700" fill="#e8e8ea">Marcador semanal</text>
+  <text x="255" y="528" text-anchor="middle" font-size="12.5" fill="#d9a520" font-family="ui-monospace,monospace">resultado publicado</text>
+
+  <rect x="440" y="480" width="270" height="60" rx="10" fill="url(#c)" stroke="#2c2f35"/>
+  <text x="575" y="508" text-anchor="middle" font-size="15" font-weight="700" fill="#e8e8ea">Percentil del día</text>
+  <text x="575" y="528" text-anchor="middle" font-size="12.5" fill="#8b8f98" font-family="ui-monospace,monospace">mediana, no promedio</text>
+
+  <rect x="770" y="480" width="300" height="60" rx="10" fill="url(#c)" stroke="#4ade80" stroke-opacity="0.5"/>
+  <text x="920" y="508" text-anchor="middle" font-size="15" font-weight="700" fill="#4ade80">Pruebas del sistema</text>
+  <text x="920" y="528" text-anchor="middle" font-size="12.5" fill="#8b8f98" font-family="ui-monospace,monospace">invariantes y casos límite</text>
+  <g stroke="#d9a520" stroke-width="2" marker-end="url(#f)" fill="none">
+    <path d="M380 510 L435 510"/><path d="M710 510 L765 510"/>
+  </g>
+
+  <path d="M1090 510 L1150 510 L1150 82 L1085 82" fill="none" stroke="#4ade80" stroke-opacity="0.5"
+        stroke-width="2" stroke-dasharray="6 5" marker-end="url(#f)"/>
+  <text x="1162" y="300" font-size="12" fill="#4ade80" fill-opacity="0.8"
+        font-family="ui-monospace,monospace" transform="rotate(90 1162 300)">el estado se versiona en cada corrida</text>
+
+  <text x="30" y="552" font-size="12.5" fill="#5f636b" font-family="ui-monospace,monospace">GitHub Actions · cada 15 minutos · repositorio público · sin VPS ni base de datos · costo 0</text>
+</svg>

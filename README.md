@@ -1,41 +1,69 @@
 # Hermes Signal Bot
 
-Escanea 20 pares de Binance cada 15 minutos buscando divergencias de RSI confirmadas por volumen. Cuando
-encuentra una, la puntúa, la manda a Telegram y Discord con su gráfico, y anota entrada, objetivo y stop
-para volver sobre ella más tarde y ver cómo terminó.
+Sistema de detección de señales para Binance. Analiza 20 pares en cada pasada, detecta divergencias de
+RSI confirmadas por volumen, asigna una puntuación calibrada, y notifica por Telegram y Discord con
+gráfico y contexto de derivados. Posteriormente evalúa el resultado de cada señal y lo publica.
 
-No hay servidor. Un workflow de GitHub Actions se despierta cada 15 minutos, corre los flujos y guarda su
-estado en un commit: GitHub levanta la máquina, ejecuta el script y la apaga. Sin VPS, sin base de datos.
-
-El bot no opera. No pide claves de exchange, no toca fondos y no manda órdenes. Solo avisa, y después
-publica cómo le fue a cada señal.
+Alcance: sistema de notificación. No ejecuta operaciones, no administra claves de exchange y no tiene
+acceso a fondos.
 
 [![Flujos](https://img.shields.io/github/actions/workflow/status/COEFR/Hermes-Signal-bot/bot.yml?style=flat-square&label=flujos)](https://github.com/COEFR/Hermes-Signal-bot/actions/workflows/bot.yml)
 [![Último commit](https://img.shields.io/github/last-commit/COEFR/Hermes-Signal-bot?style=flat-square&label=%C3%BAltimo%20estado)](https://github.com/COEFR/Hermes-Signal-bot/commits/main)
 [![Lenguaje](https://img.shields.io/github/languages/top/COEFR/Hermes-Signal-bot?style=flat-square)](#)
 
-## Qué corre en cada pasada
+## Arquitectura
 
-El lanzador es `gh_run.py` y decide qué flujos ejecutar según la hora que disparó el workflow.
+<img src="img/arquitectura.svg" alt="arquitectura: entrada de datos, detección, entrega y control" width="100%">
 
-| flujo | qué hace |
+La ejecución se programa mediante GitHub Actions: el runner se inicia cada 15 minutos, ejecuta los flujos
+correspondientes a la hora del disparo y finaliza. No hay servidor ni base de datos; el estado se versiona
+en el propio repositorio mediante commits.
+
+## Flujos por pasada
+
+| flujo | condición | función |
+|---|---|---|
+| `premium` | divergencia bajista, volumen ≥ 1,2× y ADX ≥ 20 | flujo principal de detección |
+| `normales` | divergencias con ADX bajo | cobertura ampliada |
+| `momentum` | máximo de 30 días en velas diarias | detección de continuidad |
+| `rebote` | caída ≥ 5% en 1 hora con volumen 3× | detección de reversión |
+| `contexto de mercado` | movimientos de BTC, funding en extremos | contexto general |
+| `seguimiento` | señales abiertas | evaluación contra objetivo y stop |
+
+Además: reporte diario a las 12:00 UTC y marcador semanal con gráfico los lunes a las 13:00 UTC.
+
+## Parámetros
+
+| parámetro | valor |
 |---|---|
-| `premium` | divergencia bajista con volumen de al menos 1,2× y ADX de 20 para arriba. Es el flujo principal |
-| `normales` | divergencias con ADX bajo: hace de radar y suma más cantidad de señales |
-| `momentum` | máximo nuevo de 30 días en velas diarias |
-| `rebote` | caída de 5% o más en una hora con el triple de volumen |
-| `contexto de mercado` | BTC moviéndose fuerte, funding en extremos, amplitud del mercado |
-| `seguimiento` | revisa las señales abiertas contra objetivo y stop, y avisa cuando alguno queda cerca |
+| pares analizados por pasada | 20 (top por volumen, más lista propia) |
+| periodicidad de ejecución | 15 minutos |
+| confirmación por volumen | ≥ 1,2× del promedio |
+| filtro de tendencia | ADX ≥ 20 en el flujo principal |
+| ventana de seguimiento | hasta cierre por objetivo o stop |
 
-Aparte de eso, todos los días a las 12:00 UTC manda un reporte, y los lunes a las 13:00 el marcador de la
-semana con su gráfico.
+## Implementación
 
-## Una alerta de ejemplo
+- **Indicadores propios.** RSI, ATR y ADX implementados según la formulación de Wilder, sin librerías
+  intermedias. Cada uno incluye pruebas para los casos límite: series cortas, división por cero cuando la
+  pérdida media es nula, y velas incompletas.
+- **Puntuación.** Escala de 1 a 10 calibrada con datos históricos; los pesos no son arbitrarios.
+- **Persistencia.** El estado (`state*.json` para deduplicación y enfriamiento, `signals_log.jsonl` para
+  señales emitidas, `results.jsonl` para cierres, `ultimas_tareas.json` para el control diario) se
+  versiona en el repositorio, dado que cada ejecución del runner comienza sin memoria.
+- **Gráficos.** Los PNG se generan en cada señal y se envían adjuntos; no se versionan en el repositorio.
+- **Credenciales.** Se inyectan desde los secretos del repositorio y nunca forman parte del código.
 
-Este es un mensaje real, sacado del registro de señales (`signals_log.jsonl`):
+Ejemplo del motor de indicadores (`signals.py`):
+
+<img src="img/codigo.png" alt="rsi_wilder y atr_wilder en signals.py" width="100%">
+
+## Una señal de ejemplo
+
+Registro real del sistema (`signals_log.jsonl`):
 
 ```
-MOMENTUM · nuevo máximo de 30 días
+MOMENTUM · máximo de 30 días
 Par                 BATUSDT   (velas de 1 día)
 Entrada             0.14180
 Objetivo            0.17641      +24,4%
@@ -43,68 +71,49 @@ Stop                0.12450      -12,2%
 Volatilidad (ATR)   8,14%
 ```
 
-Cada alerta va con su gráfico: velas, volumen, RSI, la divergencia marcada y los niveles. Cuando la señal
-se cierra, el bot publica si llegó al objetivo o si saltó el stop.
+## Resultados medidos
 
-## Los indicadores, escritos a mano
+Las mediciones completas están en `NOTAS.md`. Se incluyen los resultados negativos.
 
-RSI, ATR y ADX son implementaciones propias que siguen la formulación original de Wilder. No hay librerías
-de indicadores escondiendo la cuenta, y cada una tiene pruebas para los casos límite: series cortas,
-división por cero cuando la pérdida media da 0, y velas incompletas.
+- Con 3 años de datos y 3 ventanas independientes, ninguna de las 10 combinaciones de dirección,
+  temporalidad y nivel evaluadas resultó positiva en las tres ventanas.
+- Los 9 indicadores complementarios probados no aportaron valor predictivo.
+- Conclusión operativa: el sistema se utiliza como referencia de mercado. Cada alerta incluye el
+  desempeño histórico medido del nivel correspondiente.
 
-<img src="img/codigo.png" alt="rsi_wilder y atr_wilder en signals.py" width="100%">
+## Metodología
+
+- **Evaluación por señal.** FDV al momento del aviso contra el máximo posterior, sobre la ventana de
+  seguimiento. Los cierres se calculan contra objetivo y stop.
+- **Puntaje por percentil diario.** La escala se recalibra con el mercado en lugar de acumular valores
+  históricos.
+- **Distribución aparte.** El percentil diario determina qué avisos se publican en cada canal.
+- **Pruebas previas.** `tests_sistema.py` verifica invariantes y casos límite, y termina con código de
+  salida igual a la cantidad de fallos.
 
 ## Estructura
 
-| archivo | qué es |
+| archivo | función |
 |---|---|
-| `signals.py` | el motor: baja los datos de Binance, calcula los indicadores, detecta la divergencia, arma el mensaje y lo envía por la Bot API |
-| `chart.py` | dibuja los PNG: velas, volumen, RSI, la divergencia y los niveles, más el gráfico del cierre |
-| `tracker.py` | agarra cada señal enviada, la compara con las velas que vinieron después y publica el resultado |
-| `scoring.py` + `score_calib.json` | el puntaje de 1 a 10, calibrado con datos reales en vez de pesos inventados |
-| `mercado.py` | avisos de contexto: BTC, funding, amplitud |
+| `signals.py` | motor: descarga de datos, indicadores, detección, formato y envío por Bot API |
+| `chart.py` | generación de los gráficos (velas, volumen, RSI, divergencia y niveles) |
+| `tracker.py` | evaluación de cada señal contra las velas posteriores |
+| `scoring.py` + `score_calib.json` | puntuación 1-10 calibrada con datos reales |
+| `mercado.py` | avisos de contexto (BTC, funding, amplitud) |
 | `watchlist.py` | pares propios que se suman al top por volumen |
-| `gh_run.py` | el lanzador que elige los flujos según la hora |
-| `salud.py` | auditoría del sistema completo; devuelve la cantidad de fallos como código de salida |
-| `backtest.py`, `profit.py`, `salidas.py`, `candidatas*.py`, `niveles_long.py` | estudios de medición, documentados en `NOTAS.md` |
-| `NOTAS.md` | todas las mediciones, incluidas las que no funcionaron |
+| `gh_run.py` | lanzador: selecciona los flujos según la hora del disparo |
+| `salud.py` | auditoría del sistema; devuelve la cantidad de fallos como código de salida |
+| `backtest.py`, `profit.py`, `salidas.py`, `niveles_long.py` | estudios de medición, documentados en `NOTAS.md` |
+| `NOTAS.md` | registro completo de las mediciones, incluidos los resultados negativos |
 
-## Estado y secretos
-
-En GitHub Actions cada corrida arranca sin memoria, así que el estado vive en el propio repositorio y se
-actualiza con un commit en cada pasada: `state*.json` para el dedupe y los cooldowns, `signals_log.jsonl`
-con las señales enviadas, `results.jsonl` con los cierres y `ultimas_tareas.json` para no repetir el
-reporte del día. Los gráficos no se versionan porque van adjuntos en el mensaje: la carpeta `charts/` está
-ignorada.
-
-Los secretos van en GitHub Secrets, nunca en el código:
-
-| secreto | para qué |
-|---|---|
-| `TELEGRAM_BOT_TOKEN` · `TELEGRAM_HOME_CHANNEL` | los avisos por Telegram |
-| `DISCORD_BOT_TOKEN` · `DISCORD_HOME_CHANNEL` · `DISCORD_SIGNALS_CHANNEL` | los avisos por Discord |
-
-## Antes de publicar un cambio
+## Verificación antes de publicar cambios
 
 ```bash
-python tests_sistema.py            # invariantes de las señales, textos limpios y casos borde
-python salud.py --datos            # auditoría completa + datos crudos + temporalidades
-python dev/prueba_clon_limpio.py   # clona el repo, instala desde cero y corre el ciclo en seco
+python tests_sistema.py            # invariantes, textos y casos límite
+python salud.py --datos            # auditoría completa y datos crudos
+python dev/prueba_clon_limpio.py   # clonado, instalación y ciclo en seco
 ```
 
-`tests_sistema.py` cubre las fallas que ya aparecieron en este proyecto: textos con `None`, niveles del
-lado equivocado, crashes con datos incompletos, estado corrupto, precios minúsculos y el plan de flujos.
-Termina con código de salida igual a la cantidad de fallos.
+## Uso
 
-## Lo que dicen los números
-
-Conviene leerlo antes de confiar en cualquier señal. Las mediciones están en `NOTAS.md` y no son lindas:
-con 3 años de datos y 3 ventanas independientes, ninguna de las 10 combinaciones de dirección,
-temporalidad y nivel da positivo en las tres, y los 9 indicadores extra que probamos fallaron. El bot es
-un radar para mirar el mercado, no una fuente de rentabilidad. Por eso cada alerta muestra el histórico
-medido de ese nivel y el bot publica su propio marcador: la idea es que no haya que creerle a la promesa
-sino a los números.
-
-## Licencia
-
-© COEFR. Uso personal. Nada de esto es asesoría financiera.
+© COEFR. Uso personal. El contenido es informativo y no constituye asesoría financiera.
